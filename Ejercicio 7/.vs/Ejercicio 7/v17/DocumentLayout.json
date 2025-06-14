@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\G\u00F3mez Parada\\Downloads\\Ejercicios_Formulario 1\\Ejercicio 7\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EB65FEE7-5EF7-4094-802A-E2B497951BAF}|Ejercicio 7\\Ejercicio 7.csproj|c:\\users\\g\u00F3mez parada\\downloads\\ejercicios_formulario 1\\ejercicio 7\\ejercicio 7\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB65FEE7-5EF7-4094-802A-E2B497951BAF}|Ejercicio 7\\Ejercicio 7.csproj|solutionrelative:ejercicio 7\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{EB65FEE7-5EF7-4094-802A-E2B497951BAF}|Ejercicio 7\\Ejercicio 7.csproj|C:\\Users\\G\u00F3mez Parada\\Downloads\\Ejercicios_Formulario 1\\Ejercicio 7\\Ejercicio 7\\Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{EB65FEE7-5EF7-4094-802A-E2B497951BAF}|Ejercicio 7\\Ejercicio 7.csproj|solutionrelative:Ejercicio 7\\Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB65FEE7-5EF7-4094-802A-E2B497951BAF}|Ejercicio 7\\Ejercicio 7.csproj|c:\\users\\g\u00F3mez parada\\downloads\\ejercicios_formulario 1\\ejercicio 7\\ejercicio 7\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB65FEE7-5EF7-4094-802A-E2B497951BAF}|Ejercicio 7\\Ejercicio 7.csproj|solutionrelative:ejercicio 7\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,17 +18,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\G\u00F3mez Parada\\Downloads\\Ejercicios_Formulario 1\\Ejercicio 7\\Ejercicio 7\\Form1.cs",
               "RelativeDocumentMoniker": "Ejercicio 7\\Form1.cs",
               "ToolTip": "C:\\Users\\G\u00F3mez Parada\\Downloads\\Ejercicios_Formulario 1\\Ejercicio 7\\Ejercicio 7\\Form1.cs",
               "RelativeToolTip": "Ejercicio 7\\Form1.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAwwDYAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAwwDYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-13T19:52:11.852Z",
               "IsPinned": true,
@@ -52,14 +52,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Form1.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\G\u00F3mez Parada\\Downloads\\Ejercicios_Formulario 1\\Ejercicio 7\\Ejercicio 7\\Form1.cs",
               "RelativeDocumentMoniker": "Ejercicio 7\\Form1.cs",
-              "ToolTip": "C:\\Users\\G\u00F3mez Parada\\Downloads\\Ejercicios_Formulario\\Ejercicio 7\\Ejercicio 7\\Form1.cs [Dise\u00F1o]*",
-              "RelativeToolTip": "..\\..\\Ejercicios_Formulario\\Ejercicio 7\\Ejercicio 7\\Form1.cs [Dise\u00F1o]*",
+              "ToolTip": "C:\\Users\\G\u00F3mez Parada\\Downloads\\Ejercicios_Formulario 1\\Ejercicio 7\\Ejercicio 7\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Ejercicio 7\\Form1.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-13T19:40:29.311Z"
+              "WhenOpened": "2025-06-13T19:40:29.311Z",
+              "EditorCaption": " [Dise\u00F1o]"
             }
           ]
         }

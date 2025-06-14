@@ -45,15 +45,17 @@ namespace Ejercicio_7
             // 
             // btnSalir
             // 
+            this.btnSalir.BackColor = System.Drawing.Color.SkyBlue;
             this.btnSalir.Image = ((System.Drawing.Image)(resources.GetObject("btnSalir.Image")));
             this.btnSalir.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnSalir.Location = new System.Drawing.Point(622, 293);
+            this.btnSalir.Location = new System.Drawing.Point(1037, 406);
+            this.btnSalir.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.btnSalir.Name = "btnSalir";
-            this.btnSalir.Size = new System.Drawing.Size(109, 76);
+            this.btnSalir.Size = new System.Drawing.Size(182, 105);
             this.btnSalir.TabIndex = 9;
             this.btnSalir.Text = "Salir";
             this.btnSalir.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnSalir.UseVisualStyleBackColor = true;
+            this.btnSalir.UseVisualStyleBackColor = false;
             this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
             // 
             // grbConversion
@@ -61,9 +63,12 @@ namespace Ejercicio_7
             this.grbConversion.Controls.Add(this.lblPesos);
             this.grbConversion.Controls.Add(this.txtPesos);
             this.grbConversion.Controls.Add(this.lblSon);
-            this.grbConversion.Location = new System.Drawing.Point(64, 269);
+            this.grbConversion.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.grbConversion.Location = new System.Drawing.Point(107, 372);
+            this.grbConversion.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.grbConversion.Name = "grbConversion";
-            this.grbConversion.Size = new System.Drawing.Size(512, 100);
+            this.grbConversion.Padding = new System.Windows.Forms.Padding(5, 4, 5, 4);
+            this.grbConversion.Size = new System.Drawing.Size(853, 138);
             this.grbConversion.TabIndex = 10;
             this.grbConversion.TabStop = false;
             this.grbConversion.Text = "Resultado";
@@ -71,85 +76,100 @@ namespace Ejercicio_7
             // lblPesos
             // 
             this.lblPesos.AutoSize = true;
-            this.lblPesos.Location = new System.Drawing.Point(251, 53);
+            this.lblPesos.Location = new System.Drawing.Point(418, 73);
+            this.lblPesos.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.lblPesos.Name = "lblPesos";
-            this.lblPesos.Size = new System.Drawing.Size(36, 13);
+            this.lblPesos.Size = new System.Drawing.Size(56, 18);
             this.lblPesos.TabIndex = 10;
             this.lblPesos.Text = "Pesos";
             // 
             // txtPesos
             // 
-            this.txtPesos.Location = new System.Drawing.Point(105, 46);
+            this.txtPesos.BackColor = System.Drawing.Color.Thistle;
+            this.txtPesos.Location = new System.Drawing.Point(175, 64);
+            this.txtPesos.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.txtPesos.Name = "txtPesos";
             this.txtPesos.ReadOnly = true;
-            this.txtPesos.Size = new System.Drawing.Size(100, 20);
+            this.txtPesos.Size = new System.Drawing.Size(164, 24);
             this.txtPesos.TabIndex = 9;
             this.txtPesos.TextChanged += new System.EventHandler(this.txtPesos_TextChanged_1);
             // 
             // lblSon
             // 
             this.lblSon.AutoSize = true;
-            this.lblSon.Location = new System.Drawing.Point(23, 49);
+            this.lblSon.Location = new System.Drawing.Point(38, 68);
+            this.lblSon.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.lblSon.Name = "lblSon";
-            this.lblSon.Size = new System.Drawing.Size(32, 13);
+            this.lblSon.Size = new System.Drawing.Size(48, 18);
             this.lblSon.TabIndex = 1;
             this.lblSon.Text = "Son :";
             // 
             // txtDolares
             // 
-            this.txtDolares.Location = new System.Drawing.Point(90, 113);
+            this.txtDolares.BackColor = System.Drawing.Color.Thistle;
+            this.txtDolares.Location = new System.Drawing.Point(150, 156);
+            this.txtDolares.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.txtDolares.Name = "txtDolares";
-            this.txtDolares.Size = new System.Drawing.Size(90, 20);
+            this.txtDolares.Size = new System.Drawing.Size(147, 24);
             this.txtDolares.TabIndex = 11;
             this.txtDolares.TextChanged += new System.EventHandler(this.txtDolares_TextChanged);
             // 
             // lblIngPesos
             // 
             this.lblIngPesos.AutoSize = true;
-            this.lblIngPesos.Location = new System.Drawing.Point(87, 82);
+            this.lblIngPesos.Location = new System.Drawing.Point(145, 114);
+            this.lblIngPesos.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.lblIngPesos.Name = "lblIngPesos";
-            this.lblIngPesos.Size = new System.Drawing.Size(240, 13);
+            this.lblIngPesos.Size = new System.Drawing.Size(385, 18);
             this.lblIngPesos.TabIndex = 13;
             this.lblIngPesos.Text = "Ingresa los Dolares que quieras convertir a Pesos";
             // 
             // btnConvertir
             // 
+            this.btnConvertir.BackColor = System.Drawing.Color.SkyBlue;
             this.btnConvertir.Image = ((System.Drawing.Image)(resources.GetObject("btnConvertir.Image")));
             this.btnConvertir.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnConvertir.Location = new System.Drawing.Point(622, 57);
+            this.btnConvertir.Location = new System.Drawing.Point(1037, 79);
+            this.btnConvertir.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.btnConvertir.Name = "btnConvertir";
-            this.btnConvertir.Size = new System.Drawing.Size(109, 76);
+            this.btnConvertir.Size = new System.Drawing.Size(182, 105);
             this.btnConvertir.TabIndex = 14;
             this.btnConvertir.Text = "Convertir";
             this.btnConvertir.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnConvertir.UseVisualStyleBackColor = true;
+            this.btnConvertir.UseVisualStyleBackColor = false;
             this.btnConvertir.Click += new System.EventHandler(this.btnConvertir_Click);
             // 
             // btnBorrar
             // 
+            this.btnBorrar.BackColor = System.Drawing.Color.SkyBlue;
             this.btnBorrar.Image = ((System.Drawing.Image)(resources.GetObject("btnBorrar.Image")));
             this.btnBorrar.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnBorrar.Location = new System.Drawing.Point(622, 169);
+            this.btnBorrar.Location = new System.Drawing.Point(1037, 234);
+            this.btnBorrar.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.btnBorrar.Name = "btnBorrar";
-            this.btnBorrar.Size = new System.Drawing.Size(109, 76);
+            this.btnBorrar.Size = new System.Drawing.Size(182, 105);
             this.btnBorrar.TabIndex = 19;
             this.btnBorrar.Text = "Borrar";
             this.btnBorrar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnBorrar.UseVisualStyleBackColor = true;
+            this.btnBorrar.UseVisualStyleBackColor = false;
             this.btnBorrar.Click += new System.EventHandler(this.btnBorrar_Click);
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.ClientSize = new System.Drawing.Size(1333, 623);
             this.Controls.Add(this.btnBorrar);
             this.Controls.Add(this.btnConvertir);
             this.Controls.Add(this.lblIngPesos);
             this.Controls.Add(this.txtDolares);
             this.Controls.Add(this.grbConversion);
             this.Controls.Add(this.btnSalir);
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.Name = "Form1";
             this.Text = "Ejercicio 7";
             this.Load += new System.EventHandler(this.Form1_Load);
